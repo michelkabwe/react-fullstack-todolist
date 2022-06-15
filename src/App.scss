@@ -1,0 +1,69 @@
+$maincolor: #E0E0E0;
+$todoitemcolor:#F2F2F2;
+$buttoncolor:#29DB99;
+
+
+/*Todo Item */
+$TodoFontSize: 2rem;
+$fontStyle:"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+
+
+.App {
+  margin: 0;
+  text-align: center;
+  background-color:$maincolor;
+
+
+.header {
+  background-color:#5422F2 ;
+  height: 150px;
+  
+}
+
+
+
+.input_container input {
+  font-size: 3rem;;
+  height: 100px;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.todos_container {
+
+}
+
+.todo_item {
+  background-color:$todoitemcolor;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size:$TodoFontSize ;
+  
+}
+
+.todo_item__header {
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.todo_item__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-family: $fontStyle;
+}
+
+}
+
